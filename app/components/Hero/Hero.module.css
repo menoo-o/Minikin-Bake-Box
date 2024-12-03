@@ -1,0 +1,82 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .heroImage {
+    z-index: 1; /* Background image */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 20; /* Text overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    background: rgba(0, 0, 0, 0.15); /* Optional: Dark overlay to improve text readability */
+  }
+  
+  .caption {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .subCaption {
+    font-size: 1.7rem;
+    color: #f8f8f8;
+    line-height: 1.5;
+    width: 45%;
+  }
+  
+
+  .highlight {
+    font-size: 3.3rem;  /* Make the highlighted word bigger */
+    font-weight: bold;  /* Make it bolder */
+    color: #ffffff;  /* Optional: Change the color to something eye-catching */
+    text-transform: uppercase;  /* Optional: Change to uppercase for emphasis */
+    letter-spacing: 3.1px;  /* Optional: Add spacing between letters */
+
+  }
+
+
+  /* Button.module.css */
+.orderButton {
+    position: absolute;
+    bottom: 180px;
+    left: 40px;
+    
+    z-index: 20;
+    background-color: #83a5af; /* White background */
+    color: #ffffff; /* Baby blue text */
+    border: 2px solid #ffffff; /* Baby blue border */
+    border-radius: 30px; /* Rounded corners */
+    padding: 15px 70px; /* Spacing inside the button */
+    font-size: 1.3rem;
+    letter-spacing: 0.2cap;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .orderButton:hover {
+    background-color: #89CFF0; /* Baby blue background on hover */
+    color: #fff; /* White text on hover */
+    border-color: #fff; /* White border on hover */
+  }
+  
+  .orderButton:focus {
+    outline: none; /* Remove the focus outline */
+  }
+  
+  
+

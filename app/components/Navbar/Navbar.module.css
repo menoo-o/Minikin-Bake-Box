@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #ffffff54;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(224, 245, 248, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .logo img {
+    transform: scale(0.95); /* Start slightly smaller */
+    animation: zoomIn 1.5s ease forwards; /* Smooth zoom animation */
+  }
+  
+  /* Keyframes for zoom effect */
+  @keyframes zoomIn {
+    to {
+      transform: scale(1.27); /* Scale to normal size */
+    }
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navItem {
+    text-decoration: none;
+    font-size: 1.54rem;
+    color: #333;
+    color: #0c7392;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navItem:hover {
+    color: #ffffff;
+  }
+  
